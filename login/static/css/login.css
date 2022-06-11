@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700;&display=swap');
+
+@font-face 
+{
+    font-family: instafont;
+    src: url("{% static 'css/instafont.otf' %}") format("opentype");
+}
+
+        body{
+            font-family: 'Quicksand', sans-serif;
+            display: flex;
+            margin: 8%;
+            min-height: 100px;
+            background-color: #F9F9F9;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .container .col-01{      
+
+        }
+
+        .container .col-02{
+            margin-top: 20px;
+            width: 400px;
+            height: 800px;           
+
+        }
+        
+        .row-01{
+                margin: 0px;
+                box-shadow: 0px 0px 2px grey;
+                margin-bottom: 20px;
+                background-color: white;
+
+                
+        }
+        .row-02{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin: 0;
+            box-shadow: 0px 0px 2px grey;
+            margin-bottom: 10px;
+               
+        }
+
+        .row-03{
+            margin: 0;
+            margin-bottom: 10px;
+            
+        }
+        .content-01 {
+            text-align: center;          
+
+        }
+        .content-01 h1{
+            padding-top: 15px;
+            margin-top: -0.5px;
+            color: #343434;
+            font-family: "instafont"; 
+            font-size: 6ex;
+        }
+        .content-01 .inpt{
+            border: 0px;
+            outline: 0;
+            padding: 10px;
+            padding-right: 80px;
+            margin-bottom: 10px;
+            background-color: #F9F9F9;
+            box-shadow: 0px 0px 1px grey;
+            width: 200px;
+        }
+
+     
+        .content-01 .btn{
+            border: 0px;
+            padding: 10px;
+            color: white;
+            margin-bottom: 10px;
+            background-color: #9FDAD6;
+            box-shadow: 0px 0px 1px black;
+            width: 290px;
+            font-weight: 800;
+        }
+        .content-01 .or{
+            color: grey;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+        }
+       
+        .content-01 a{
+            text-decoration: none;
+        }
+        .content-01 .fb{
+            color: #011C5E;
+            font-weight: 700;
+            padding-top: 15px;
+        }
+
+        .content-01 .pdg{
+            padding-top: 10px;
+            padding-bottom: 15px;
+           
+        }
+        .content-01 .fpg{
+            color: #011C5E;
+            font-weight: 500;
+        }
+        .content-01 .logo{
+            color: #011C5E;
+            font-weight: 700;
+            display: flex;
+            padding-left: 100px ;
+        }
+      
+        .content-02 {
+            width: 400px;
+            margin: 10px;
+            text-align: center;
+
+        }
+
+        .content-02 a{
+            text-decoration: none;
+            font-weight: 700;
+            color: #1ACACB;
+        }
+
+        .content-02 .pdg{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-weight: 700;
+            
+        }
+        .content-03 {
+            margin: 10px;
+            text-align: center;
+            
+        }
+        .content-03 .pdg{
+            padding-top: 35px;
+            background-color: #F9F9F9;
+            font-weight: 700;
+        }
+        .content-03 .img{
+            margin-top: 10px;
+        }

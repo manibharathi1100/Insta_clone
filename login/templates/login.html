@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-01">
+            <div class="content">
+                <img src="{% static 'imgs/login_image.png' %}" width="400px"  height="500px"  alt="EMPTY">
+            </div>           
+        </div> 
+        <div class="col-02">
+            <div class="row-01">
+                <div class="content-01">
+                    <section>
+                        <h1>Instagram</h1>
+                    </section>
+                    <section>
+                        <input class="inpt" type="text" name="username" placeholder="Phone number, usernane, email" value="" maxlength="25">  </input>
+                    </section>
+                    <section>
+                        <input class="inpt" type="text" name="password" placeholder="Password" value="" maxlength="25"> </input>
+                    </section>
+                    <section >
+                        <b><input class="btn" type="button" value="Log In" ></b>
+                    </section>
+                    <section class="or">
+                        <strong><h7> ---------------  &nbsp; OR &nbsp; --------------- </h7></strong>
+                    </section>
+                    <section class="logo">
+                        <img src="{% static 'imgs/facebook.png' %}" alt="#"> 
+                        <a href="{% url 'social:begin' 'facebook' %}" class="fb">Login with facebook</a>
+                    </section>
+                    <section class="pdg">
+                        <a href="#" class="fpg"> Forgot password? </a>
+                    </section>
+                </div>
+            </div>
+            <div class="row-02">
+                <div class="content-02">
+                    <section class="pdg">
+                        <h7>Don't have an account?<a href="#" > Sign Up</a></h7>
+                    </section>
+                </div>
+            </div>
+            <div class="row-03">
+                <div class="content-03">
+                    <section class="pdg">
+                         Get the app.
+                    </section>
+                    <section class="img">
+                        <img src="{% static 'imgs/appstore.png' %}" alt="#">
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>    
+    
+</body>
+</html>
